@@ -12,6 +12,10 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Dev Environment Setup
 ### MacOS
+install xcode tools
+```
+xcode-select --install
+```
 install [brew](https://brew.sh/) by running below in terminal
 ``` bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -23,6 +27,11 @@ brew install nodejs
 install visual studio code
 ```
 brew install visual-studio-code
+```
+install []mongodb](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+```
+brew tap mongodb/brew
+brew install mongodb-community
 ```
 ### Windows
 install chocolatey. see instructions [here](https://chocolatey.org/install)
@@ -45,6 +54,7 @@ install git & git bash
 # run in powershell with admin privileges
 choco install git
 ```
+install mongodb; see [instructions](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
 ### All OS Environments
 - create github account [here](https://github.com/)
 - Generate ssh key; see [instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
