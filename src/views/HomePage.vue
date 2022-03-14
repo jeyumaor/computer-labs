@@ -19,9 +19,5 @@
 <script>
   export default {
     name: 'HomePage',
-
-    created: () => {
-      this.title = 'Home';
-    },
   }
 </script>
